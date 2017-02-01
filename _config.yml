@@ -231,7 +231,7 @@ compress_html:
     envs: development
 
 
-# collections
+# Collections
 collections:
   carto:
     output: true
