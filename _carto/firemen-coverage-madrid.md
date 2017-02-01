@@ -19,4 +19,4 @@ Based on the firemen stations locations extracted from [OSM](http://www.openstre
 <iframe width="100%" height="520" frameborder="0" src="https://team.carto.com/u/abel/builder/101f1c1a-c91b-11e6-9357-0e3ff518bd15/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 {% endraw %}
 
-hackgate copyright Lucius Nieman CNN leaves it there right-sizing a giant stack of newspapers that you'll never read net neutrality algorithms RT algorithms TechCrunch 5% corruption, horse-race coverage Gardening & War section CTR try PR CPC David Cohn shoot a photo algorithms content is king Android Snarkmarket crowdfunding, Fuego Twitter topples dictators YouTube abundance WordPress Reuters try PR stupid commenters should isn't a business model bringing a tote bag to a knife fight.
+[Link to the map](https://team.carto.com/u/abel/builder/101f1c1a-c91b-11e6-9357-0e3ff518bd15/embed)
