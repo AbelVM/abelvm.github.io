@@ -233,7 +233,7 @@ compress_html:
 
 # collections
 collections:
-  portfolio:
+  carto:
     output: true
     permalink: /:collection/:path/
 
