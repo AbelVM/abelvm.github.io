@@ -2,18 +2,18 @@
 title: "Firemen service coverage in Madrid area"
 excerpt: "Overview of firemen service coverage in terms of time and available service Madrid area"
 header:
-  image: /assets/images/carto_firemen.png
-  teaser: /assets/images/carto_firemen.png
+  image: /images/carto_firemen.png
+  teaser: /images/carto_firemen.png
 sidebar:
   - title: "Role"
-    image: /assets/images/logo.png
+    image: /images/logo.png
     image_alt: "logo"
     text: "Designer, Front-End Developer"
   - title: "Responsibilities"
     text: "Reuters try PR stupid commenters should isn't a business model"
 gallery:
-  - url: /assets/images/carto_firemen.png
-    image_path: assets/images/carto_firemen.png
+  - url: /images/carto_firemen.png
+    image_path: /images/carto_firemen.png
     alt: "Screenshot"
 ---
 
