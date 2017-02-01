@@ -235,7 +235,7 @@ compress_html:
 collections:
   carto:
     output: true
-    permalink: /:collection/:path/
+    permalink: /carto/:path/
 
 
 # Defaults
