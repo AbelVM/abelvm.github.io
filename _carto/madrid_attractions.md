@@ -1,6 +1,6 @@
 ---
-title: "Power demand in Spain"
-excerpt: "Mapping the power demand in Spain in 1km² resolution"
+title: "Madrid tourist attractions"
+excerpt: "As a helping tool to get the most of Madrid"
 header:
   image: /images/carto_madrid_attractions.png
   teaser: /images/carto_madrid_attractions.png
