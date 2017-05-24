@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CARTO 3D</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js" integrity="sha512-A7vV8IFfih/D732iSSKi20u/ooOfj/AGehOKq0f4vLT1Zr2Y+RX7C+w8A1gaSasGtRUZpF/NZgzSAu4/Gc41Lg==" crossorigin=""></script>
+    <script src="https://mapzen.com/tangram/tangram.min.js"></script>
+    <style>
+        html,
+        body,
+        #mapid {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            background-color: white;
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #mapid {
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="mapid"></div>
+
+    <script>
+        window.onload = function() {
+
+            var mymap = L.map('mapid').setView([40.420702, -3.705838], 18);
+
+            L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png', {
+                maxZoom: 21,
+                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href = "https://carto.com/attribution" > CARTO < /a>'
+            }).addTo(mymap);
+
+            Tangram.leafletLayer({
+                scene: 'https://mapzen.com/api/scenes/34734/649/resources/basic.yaml',
+                attribution: '<a href="https://mapzen.com/tangram" target="_blank">Tangram</a> | &copy; OSM contributors'
+            }).addTo(mymap);
+        }
+    </script>
+
+</body>
+
+</html>
