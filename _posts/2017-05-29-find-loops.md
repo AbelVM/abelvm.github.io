@@ -9,7 +9,7 @@ To write te article [Spies in the sky](https://www.buzzfeed.com/peteraldhous/spi
 Now, most of the work cand be replicated with a simple function applied using [CARTO SQL Node analysis](https://github.com/CartoDB/camshaft/blob/master/docs/deprecated-sql-function.md).
 
 {% raw %}
-<script async class="speakerdeck-embed" data-id="549c84d0a7be0131483722f4a3a41586" data-ratio="1.33333333333333" src="https://team.carto.com/u/abel/builder/3e25257e-4219-11e7-a133-0ecd1babdde5/embed"></script>
+<iframe width="100%" height="520" frameborder="0" src="https://team.carto.com/u/abel/builder/3e25257e-4219-11e7-a133-0ecd1babdde5/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 {% endraw %}
 
 [Link to the map](https://team.carto.com/u/abel/builder/3e25257e-4219-11e7-a133-0ecd1babdde5/embed)
