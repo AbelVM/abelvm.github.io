@@ -2,21 +2,21 @@
 title: "Trash bins and dirty claims"
 excerpt: "Is there any correlation beetween trash bins number and the cleanliness of the streets?"
 header:
-  image: /images/carto_spies.png
-  teaser: /images/carto_spies.png
+  image: /images/carto_bins.png
+  teaser: /images/carto_bins.png
 sidebar:
   - title: "Scope"
     image: /images/logo.png
     image_alt: "logo"
     text: "Leapfrog"
   - title: "Data sources"
-    text: "..."
+    text: "[Madrid Council](http://datos.madrid.es)"
 ---
 
-Rewritting [Spies in the sky](https://www.buzzfeed.com/peteraldhous/spies-in-the-skies) background work to streamline the analysis in the background
+Trying to figure out the correlation between the ratio trash bin / population in the area, or even the characteristic max distance to each bin, to the number of citizens claims about streets cleanliness led to nothing. The claims are concentrated in the areas with the higuest touristic pressure or traditional nightlife areas
 
 {% raw %}
-<iframe width="100%" height="520" frameborder="0" src="https://team.carto.com/u/abel/builder/6e057560-cc52-49ea-84bd-cdcf9865fedf/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe width="100%" height="520" frameborder="0" src="https://team.carto.com/u/abel/builder/3e25257e-4219-11e7-a133-0ecd1babdde5/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 {% endraw %}
 
-[Link to the map](https://team.carto.com/u/abel/builder/6e057560-cc52-49ea-84bd-cdcf9865fedf/embed)
+[Link to the map](https://team.carto.com/u/abel/builder/3e25257e-4219-11e7-a133-0ecd1babdde5/embed)
