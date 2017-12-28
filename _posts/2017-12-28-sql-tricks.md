@@ -319,10 +319,8 @@ But we can mildly correct it with a factor of `1/cos(latitude)`  for better resu
 ```sql
 ST_Distance(a.the_geom_webmercator, b.the_geom_webmercator)
 /
-cos(
-  radians(
+cosd(
       0.5*(ST_y(a.the_geom) + ST_y(b.the_geom))
-  )
 )
 ```
 
@@ -338,7 +336,7 @@ FROM
 WHERE ST_DWithin(
     s.the_geom_webmercator,
     a.the_geom_webmercator,
-    my_radius / cos(radians(ST_y(a.the_geom)))
+    my_radius / cosd(ST_y(a.the_geom))
 )
 ```
 
