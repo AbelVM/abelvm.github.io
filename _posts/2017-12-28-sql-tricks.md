@@ -867,9 +867,9 @@ Cool, isn't it?
 
 ### 13. Some little known shorthand operators
 
-* **||** concat strings
+* **`||`** concat strings
 
-* **@**  abs
+* **`@`**  abs
 
   * Small example: validating lat & long values
 
@@ -877,7 +877,7 @@ Cool, isn't it?
     SELECT * FROM my_dataset WHERE @latitude<90 AND @longitude<180
     ```
 
-* **|/** square root
+* **`|/`** square root
 
   * Example: equivalent radius of an arbitrary polygon
 
@@ -885,11 +885,11 @@ Cool, isn't it?
     SELECT |/( ST_Area(the_geom::geography) / PI() ) AS radius FROM my_dataset
     ```
 
-* **||/** cube root
+* **`||/`** cube root
 
-* **%** module
+* **`%`** module
 
-* **~**  regex comparision
+* **`~`**  regex comparison
 
   * Example: validate if a text field is numeric
 
